@@ -1,0 +1,1 @@
+"use strict";const J=JSON.parse(require("fs").readFileSync("./inputadv.json","utf8")).values,L=require("lodash");function cnt(a){return H.chain(J).map((b,c,d)=>L.sum(L.take(L.slice(d,c),a))).filter((a,b,c)=>b>0&&c[b-1]<a).value().length}console.log("1:",cnt(1),"\n2:",cnt(3))

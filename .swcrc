@@ -1,0 +1,24 @@
+{
+    "minify": true,
+    "jsc": {
+        "minify": {
+            "compress": true,
+            "mangle": true
+        },
+        "parser": {
+            "syntax": "ecmascript"
+        },
+        "target": "es2021",
+        "loose": false,
+        "externalHelpers": false,
+        "keepClassNames": false
+    },
+    "module": {
+        "type": "commonjs",
+        "strict": true,
+        "strictMode": true,
+        "lazy": false,
+        "noInterop": false
+    }
+}
+    

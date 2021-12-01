@@ -1,0 +1,1 @@
+from more_itertools import windowed as w;p=lambda x:len([""for i,z in w([sum(z)for z in w([int(i)for i in open('x').read()],x)],2)if i<z]);print(f"1:{p(1)}\n2:{p(3)}")
