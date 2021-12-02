@@ -1,0 +1,1 @@
+l=[int(x)for x in open("x").readlines()];z=lambda x:sum(a<b for a,b in zip(l,l[x:]));print(z(1),z(3))
